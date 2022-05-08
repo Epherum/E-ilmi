@@ -21,8 +21,7 @@ const App = () => {
         <Suspense fallback={null}>
           <color attach="background" args={["#abcbcf"]} />
           {/* fcf8f5 abcbcf b4d0d4 bdd5d9 */}
-          <ScrollControls damping={6} pages={5}>
-            <Pictures />
+          <ScrollControls damping={6} pages={3}>
             <Scroll html style={{ width: "100%", height: "100%" }}>
               <Hero />
               <BookScene navigate={navigate} />

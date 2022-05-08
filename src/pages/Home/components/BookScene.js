@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import React, { useRef, useEffect, Suspense } from "react";
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls, Html } from "@react-three/drei";
 import { motion } from "framer-motion-3d";
 
 import { Canvas, useThree, useLoader } from "@react-three/fiber";
@@ -43,15 +43,15 @@ const Scene = ({ navigate }) => {
       style={{
         position: "absolute",
         top: "56vw",
-        height: "100%",
+        height: "110%",
         width: "100%",
       }}
     >
       <Canvas>
         <Suspense fallback={null}>
           <motion.mesh
-            position={[0, -0.6, 0]}
-            whileHover={{ scale: 1.1 }}
+            position={[0, 0, 0]}
+            whileHover={{ scale: 1.03 }}
             onClick={() =>
               navigate("/Categories/Young-Adult/Things-We-Never-got-Over")
             }
@@ -59,6 +59,40 @@ const Scene = ({ navigate }) => {
             <planeBufferGeometry attach="geometry" args={[3.7, 5.9, 10, 10]} />
             <meshBasicMaterial attach="material" map={texture} />
           </motion.mesh>
+          <Html>
+            <h1
+              style={{
+                textAlign: "left",
+                position: "absolute",
+                top: "22vw",
+                left: "-13.1vw",
+                width: "20vw",
+                fontFamily: "Roboto",
+                fontWeight: "500",
+                fontSize: "1.2vw",
+                letterSpacing: ".02vw",
+              }}
+            >
+              Things We Never Got Over
+            </h1>
+            <h1
+              style={{
+                textAlign: "left",
+                position: "absolute",
+                top: "24vw",
+                left: "-13vw",
+                width: "20vw",
+                fontFamily: "Roboto",
+                fontWeight: "500",
+                fontSize: "1vw",
+                letterSpacing: ".03vw",
+
+                color: "#cacaca",
+              }}
+            >
+              Lucy Score
+            </h1>
+          </Html>
           <motion.mesh position={[3.9, 0.8, 0]} whileTap={{ scale: 0.9 }}>
             <planeBufferGeometry args={[1.4, 2.1, 10, 10]} />
             <meshBasicMaterial attach="material" map={texture} />
@@ -75,7 +109,7 @@ const Scene = ({ navigate }) => {
             <planeBufferGeometry args={[1.4, 2.1, 10, 10]} />
             <meshBasicMaterial attach="material" map={texture} />
           </motion.mesh>
-          <motion.mesh position={[-3.9, 0.8, 0]} whileHover={{ scale: 1.1 }}>
+          <motion.mesh position={[-3.9, 0.8, 0]} whileHover={{ scale: 1.03 }}>
             <planeBufferGeometry args={[1.4, 2.1, 10, 10]} />
             <meshBasicMaterial attach="material" map={texture} />
           </motion.mesh>

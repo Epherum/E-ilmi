@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import "./home.css";
 function Hero() {
   let fontcolor = "rgb(236,196,138)";
   // 481C1C FAD598 rgb(236,196,138)

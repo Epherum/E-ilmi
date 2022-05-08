@@ -53,6 +53,13 @@ function Book() {
       >
         $36.00
       </h3>
+      <img
+        style={{ position: "absolute", top: "24.9vw", left: "9vw" }}
+        src={"/images/author.png"}
+        width="25"
+        height="25"
+        alt=""
+      />
       <h6
         style={{
           fontFamily: "Roboto",
@@ -60,12 +67,12 @@ function Book() {
           fontSize: "1vw",
           position: "absolute",
           top: "22.9vw",
-          left: "9.2vw",
+          left: "11.2vw",
           width: "14vw",
           marginBottom: "3vw",
         }}
       >
-        <span
+        {/* <span
           style={{
             letterSpacing: ".05vw",
 
@@ -73,9 +80,16 @@ function Book() {
           }}
         >
           Author
-        </span>
+        </span> */}
         &nbsp; Lucy Score
       </h6>
+      <img
+        style={{ position: "absolute", top: "27.9vw", left: "9vw" }}
+        src={"/images/pages.png"}
+        width="25"
+        height="25"
+        alt=""
+      />
       <h6
         style={{
           fontFamily: "Roboto",
@@ -83,21 +97,28 @@ function Book() {
           fontSize: "1vw",
           position: "absolute",
           top: "25.9vw",
-          left: "9.2vw",
+          left: "11.2vw",
           width: "14vw",
           marginBottom: "3vw",
         }}
       >
-        <span
+        {/* <span
           style={{
             color: "#a8a8a7",
             letterSpacing: ".05vw",
           }}
         >
           Pages
-        </span>
+        </span> */}
         &nbsp; 172
       </h6>
+      <img
+        style={{ position: "absolute", top: "30.9vw", left: "9vw" }}
+        src={"/images/date.png"}
+        width="25"
+        height="25"
+        alt=""
+      />
       <h6
         style={{
           fontFamily: "Roboto",
@@ -105,19 +126,19 @@ function Book() {
           fontSize: "1vw",
           position: "absolute",
           top: "28.9vw",
-          left: "9.2vw",
+          left: "11.2vw",
           width: "14vw",
           marginBottom: "3vw",
         }}
       >
-        <span
+        {/* <span
           style={{
             color: "#a8a8a7",
             letterSpacing: ".05vw",
           }}
         >
           Release Year
-        </span>
+        </span> */}
         &nbsp; 2021
       </h6>
 
@@ -163,11 +184,11 @@ function Book() {
       <img
         style={{
           position: "absolute",
-          bottom: "2vw",
+          bottom: "4vw",
           right: "6vw",
         }}
-        width="450"
-        height="750"
+        width="350"
+        height="550"
         src={require("./41qiZpKBDvL.jpg")}
         alt="book cover"
       />
@@ -184,6 +205,7 @@ function Book() {
           color: "white",
           letterSpacing: ".05vw",
           backgroundColor: "black",
+          cursor: "pointer",
         }}
       >
         Add to Bag
@@ -202,6 +224,7 @@ function Book() {
           letterSpacing: ".05vw",
           backgroundColor: "transparent",
           border: "0px white",
+          cursor: "pointer",
         }}
       >
         Add to Wishlist
@@ -220,6 +243,7 @@ function Book() {
           letterSpacing: ".05vw",
           backgroundColor: "transparent",
           border: "0px white",
+          cursor: "pointer",
         }}
       >
         Browse Related
