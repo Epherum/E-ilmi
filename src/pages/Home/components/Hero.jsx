@@ -10,7 +10,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1.2, delay: 3 }}
+        transition={{ ease: "easeOut", duration: 1.9, delay: 2.6 }}
         style={{
           position: "absolute",
           top: "7vw",
@@ -25,7 +25,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1.2, delay: 2.8 }}
+        transition={{ ease: "easeOut", duration: 1.8, delay: 2.4 }}
         style={{
           position: "absolute",
           top: "4vw",
@@ -40,7 +40,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1, delay: 2.6 }}
+        transition={{ ease: "easeOut", duration: 1.7, delay: 2.3 }}
         style={{
           position: "absolute",
           top: "1vw",
@@ -55,7 +55,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1, delay: 2.4 }}
+        transition={{ ease: "easeOut", duration: 1.6, delay: 2.2 }}
         style={{
           position: "absolute",
           top: "-2vw",
@@ -70,7 +70,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1, delay: 2.2 }}
+        transition={{ ease: "easeOut", duration: 1.5, delay: 2.1 }}
         style={{
           position: "absolute",
           top: "-5vw",
@@ -85,7 +85,7 @@ function Hero() {
       <motion.div
         initial={{ x: -800, y: -800 }}
         animate={{ x: 0, y: 0 }}
-        transition={{ ease: "easeOut", duration: 1, delay: 2 }}
+        transition={{ ease: "easeOut", duration: 1.4, delay: 2 }}
         style={{
           position: "absolute",
           top: "-8vw",
@@ -137,7 +137,7 @@ function Hero() {
             <motion.div
               initial={{ y: 300 }}
               animate={{ y: -300 }}
-              transition={{ ease: "easeOut", duration: 1, delay: 1 }}
+              transition={{ ease: "easeOut", duration: 1.3, delay: 1 }}
               style={{
                 position: "absolute",
                 top: "0vw",
@@ -214,7 +214,7 @@ function Hero() {
             <motion.div
               initial={{ y: 350 }}
               animate={{ y: -290 }}
-              transition={{ ease: "easeOut", duration: 1.3, delay: 1.3 }}
+              transition={{ ease: "easeOut", duration: 1.6, delay: 1.3 }}
               style={{
                 position: "absolute",
                 left: "28vw",
