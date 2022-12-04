@@ -35,7 +35,7 @@
 1. the entire dom is react-three-fiber canvas, so everything is 3d, all the elements are positioned absolute.
   the design is unscalable, unresponsive, clunky, the 3d library wasen't a good choice
 
-2. everything, burn it to the ground, i made every single wrong decision while coding this, atleast it looks good
+2. everything, burn it to the ground, i made every single wrong decision while coding this, and only had a month to make it. atleast it looks good
 
 ## How can you clone and tweak this project?
 
